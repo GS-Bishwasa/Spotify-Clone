@@ -1,0 +1,46 @@
+.border {
+    /* border: 2px solid red; */
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* For webkit based browsers like Chrome, Safari, etc. */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    background-color: #333; /* background color of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scrollbar handle on hover */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666; /* color of the scrollbar handle */
+    border-radius: 5px; /* roundness of the scrollbar handle */
+}
